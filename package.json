@@ -1,0 +1,32 @@
+{
+  "name": "prosser-js",
+  "version": "0.0.0",
+  "description": "A restricted subset of JS that lacks control flow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ccheever/prosser-js.git"
+  },
+  "keywords": [
+    "declarative",
+    "parser",
+    "control-flow"
+  ],
+  "author": "Charlie Cheever <ccheever@gmail.com> (http://ccheever.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ccheever/prosser-js/issues"
+  },
+  "homepage": "https://github.com/ccheever/prosser-js",
+  "dependencies": {
+    "esprima": "~1.0.4",
+    "acorn": "~0.4.2",
+    "walkall": "0.0.3"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  }
+}
